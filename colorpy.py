@@ -15,7 +15,3 @@ def green(message):
 
 def yellow(message):
     return CSI+"33;49m" + message + CSI + "0m"
-
-# Refs:
-# https://en.wikipedia.org/wiki/ANSI_escape_code#CSI_codes
-# http://stackoverflow.com/a/287896/3147039
